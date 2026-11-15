@@ -18,7 +18,7 @@ The client asked for a simple desktop app, not browser-based, where a user can s
 |---|---|
 | Rodrigo | Project manager, tester / reviewer |
 | Vanessa | Requirements lead |
-| Andrea | Design lead |
+| Andreea | Design lead |
 | Danilo | Developer |
 
 Each role has a backup, listed in the meeting minutes.
