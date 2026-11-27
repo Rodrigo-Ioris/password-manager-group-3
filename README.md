@@ -25,8 +25,11 @@ Each role has a backup, listed in the meeting minutes.
 
 ## Technology
 
-- **Language / framework:** to be confirmed by the group
-- **Storage:** to be confirmed by the group
+- **Language:** Python 3.10 or later
+- **GUI framework:** Tkinter
+- **Storage:** SQLite
+- **Encryption:** Cryptography (Python library)
+- **Testing:** unittest
 - **Version control:** Git and GitHub
 
 ## How to run the app
@@ -39,14 +42,15 @@ To be completed once the first version is ready.
 
 ## Repository structure
 
-To be updated as the project grows.
-
-text
-/src        Application code
-/docs       Requirements, design diagrams, risk register
-/tests      Test plan and test files
-README.md
-
+```text
+password-manager-group-3/
+├── src/              Application code
+├── docs/             Project documentation
+├── tests/            Automated tests
+├── .gitignore
+├── requirements.txt
+└── README.md
+```
 
 ## Ways of working
 
@@ -67,3 +71,17 @@ README.md
 ## Status
 
 Project set-up phase. Teams, repository and roles are in place.
+
+## Technical Requirements
+
+- Python 3.10 or later
+- Tkinter for the desktop graphical user interface
+- SQLite for local database storage
+- Cryptography library for password encryption
+- unittest for automated testing
+
+### Installing Dependencies
+
+Run the following command in the project directory:
+
+`python -m pip install -r requirements.txt`
